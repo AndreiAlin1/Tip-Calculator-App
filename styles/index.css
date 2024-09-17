@@ -18,6 +18,15 @@ body {
     padding: 20px;
     border-radius: 30px;
     height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .name,
@@ -27,12 +36,13 @@ body {
     font-size: 16px;
 }
 
-.selectTipText{
-    margin-top: 20px;
+.selectTipText {
+    margin-top: 40px;
+    margin-bottom: 15px;
 }
 
-.tip-selector{
-    width: 100px;
+.tip-selector {
+    width: 110px;
     height: 50px;
     margin-top: 10px;
     border-radius: 7px;
@@ -42,8 +52,69 @@ body {
     color: white;
     font-size: 20px;
     font-weight: 800;
+    margin-right: -20px;
+    cursor: pointer;
 }
 
-.tip-selector:hover{
+.tip-selector:hover {
     background-color: hsl(172, 67%, 45%);
+}
+
+.number-input {
+    width: 360px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.name,
+.number-input,
+.selectTipText,
+.tip-selector {
+    margin-left: 25px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.right-container{
+    background-color: hsl(183, 100%, 15%);
+    margin-left: 20px;
+    width: auto;
+    height: 380px;
+    margin-right: 10px;
+    border-radius: 7px;
+}
+
+.amount-text{
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.person-text{
+    margin-top: -30px;
+    font-size: 14px;
+    margin-left: 50px;
+    color:hsl(184, 14%, 56%);
+}
+
+.reset-button{
+    width: 300px;
+    height: 50px;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }

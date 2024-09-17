@@ -18,26 +18,32 @@
 <body>
   <div class="title">S P L I<br>T T E R</div>
   <div class="container">
-    <p class="name">Bill</p>
-    <input type="number" min="1" class="number-input" placeholder="$" />
+    <div class="column">
+      <p class="name">Bill</p>
+      <input type="number" min="1" class="number-input" placeholder="$" />
 
-    <p class="selectTipText">Select Tip %</p>
-    <button class="tip-selector">5%</button>
-    <button class="tip-selector">10%</button>
-    <button class="tip-selector">15%</button>
-    <br>
-    <button class="tip-selector">25%</button>
-    <button class="tip-selector">50%</button>
+      <p class="selectTipText">Select Tip %</p>
+      <button class="tip-selector">0%</button>
+      <button class="tip-selector">5%</button>
+      <button class="tip-selector">10%</button>
+      <br>
+      <button class="tip-selector">15%</button>
+      <button class="tip-selector">25%</button>
+      <button class="tip-selector">50%</button>
 
-    <p>Number of People</p>
-    <input type="number" min="1" class="number-input" />
-    <div class="right-container"></div>
-    <p>Tip Amount</p>
-    <p>/ person</p>
+      <p class="selectTipText">Number of People</p>
+      <input type="number" min="1" class="number-input" />
+    </div>
 
-    <p> Total </p>
-    <p> / person </p>
-    <button>Reset</button>
+    <div class="column">
+      <div class="right-container">
+        <p class="amount-text">Tip Amount </p>
+        <p class="person-text"> / person </p>
+        <p class="amount-text"> Total </p>
+        <p class="person-text"> / person </p>
+        <button class="reset-button">RESET</button>
+      </div>
+    </div>
   </div>
 
 </body>
