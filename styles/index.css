@@ -68,6 +68,7 @@ body {
 
 .name,
 .number-input,
+.number-input1,
 .selectTipText,
 .tip-selector {
     margin-left: 25px;
@@ -85,6 +86,7 @@ body {
     height: 380px;
     margin-right: 10px;
     border-radius: 7px;
+    
 }
 
 .amount-text{
@@ -92,6 +94,7 @@ body {
     font-size: 16px;
     padding: 20px;
     margin-left: 30px;
+    padding-top: 15px;
 }
 
 .person-text{
@@ -104,7 +107,7 @@ body {
 .reset-button{
     width: 300px;
     height: 50px;
-    margin-top: 130px;
+    margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 7px;
@@ -117,4 +120,45 @@ body {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.input-wrapper .icon {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-wrapper img {
+    width: 16px;
+    height: 16px;
+}
+
+.number-input,.number-input1 {
+    padding-left: 30px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 340px;
+    font-size: 25px;
+}
+
+.number-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.icon-dollar{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -60px;
+    height: 40px;
 }

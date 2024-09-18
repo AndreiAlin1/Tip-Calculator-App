@@ -20,7 +20,7 @@
   <div class="container">
     <div class="column">
       <p class="name">Bill</p>
-      <input type="number" min="1" class="number-input" placeholder="$" />
+      <input type="number" min="1" class="number-input1" placeholder="$" />
 
       <p class="selectTipText">Select Tip %</p>
       <button class="tip-selector">0%</button>
@@ -32,13 +32,19 @@
       <button class="tip-selector">50%</button>
 
       <p class="selectTipText">Number of People</p>
-      <input type="number" min="1" class="number-input" />
+      <div class="input-wrapper">
+        <span class="icon">
+          <img src="./images/icon-person.svg" alt="Person Icon">
+        </span>
+        <input type="number" min="1" class="number-input" placeholder="0" />
+      </div>
     </div>
 
     <div class="column">
       <div class="right-container">
-        <p class="amount-text">Tip Amount </p>
-        <p class="person-text"> / person </p>
+          <p class="amount-text">Tip Amount </p>
+          <p class="person-text"> / person </p>
+        <img src="images/icon-dollar.svg" class="icon-dollar">
         <p class="amount-text"> Total </p>
         <p class="person-text"> / person </p>
         <button class="reset-button">RESET</button>
