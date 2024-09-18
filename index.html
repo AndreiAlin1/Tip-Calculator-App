@@ -20,38 +20,42 @@
   <div class="container">
     <div class="column">
       <p class="name">Bill</p>
-      <input type="number" min="1" class="number-input1" placeholder="$" />
+      <input type="number" min="1" class="number-input1 js-number-input1" placeholder="$" />
 
       <p class="selectTipText">Select Tip %</p>
-      <button class="tip-selector">0%</button>
-      <button class="tip-selector">5%</button>
-      <button class="tip-selector">10%</button>
+      <button class="tip-selector js-tip-selector" >0%</button>
+      <button class="tip-selector js-tip-selector" >5%</button>
+      <button class="tip-selector js-tip-selector" >10%</button>
       <br>
-      <button class="tip-selector">15%</button>
-      <button class="tip-selector">25%</button>
-      <button class="tip-selector">50%</button>
+      <button class="tip-selector js-tip-selector" >15%</button>
+      <button class="tip-selector js-tip-selector" >25%</button>
+      <button class="tip-selector js-tip-selector" >50%</button>
 
       <p class="selectTipText">Number of People</p>
       <div class="input-wrapper">
         <span class="icon">
           <img src="./images/icon-person.svg" alt="Person Icon">
         </span>
-        <input type="number" min="1" class="number-input" placeholder="0" />
+        <input type="number" min="1" class="number-input js-number-of-people" placeholder="0" />
       </div>
     </div>
 
     <div class="column">
       <div class="right-container">
-          <p class="amount-text">Tip Amount </p>
-          <p class="person-text"> / person </p>
+        <p class="amount-text">Tip Amount </p>
+        <p class="person-text"> / person </p>
         <img src="images/icon-dollar.svg" class="icon-dollar">
+        <p class="amount js-amount">0.00</p>
         <p class="amount-text"> Total </p>
         <p class="person-text"> / person </p>
-        <button class="reset-button">RESET</button>
+        <p class="amount js-total-amount">0.00</p>
+        <img src="images/icon-dollar.svg" class="icon-dollar">
+        <button class="reset-button js-reset-button">RESET</button>
       </div>
     </div>
   </div>
 
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>
