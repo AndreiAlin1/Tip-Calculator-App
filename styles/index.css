@@ -93,14 +93,14 @@ body {
     color: white;
     font-size: 16px;
     padding: 20px;
-    margin-left: 30px;
+    margin-left: 90px;
     padding-top: 35px;
 }
 
 .person-text{
     margin-top: -30px;
     font-size: 14px;
-    margin-left: 50px;
+    margin-left: 110px;
     color:hsl(184, 14%, 56%);
 }
 
@@ -158,14 +158,14 @@ body {
 
 .icon-dollar{
     position: absolute;
-    margin-left: 225px;
+    margin-left: 305px;
     margin-top: -60px;
     height: 40px;
 }
 
 .amount{
     position: absolute;
-    margin-left: 260px;
+    margin-left: 350px;
     margin-top: -70px;
     font-size: 40px;
     color: hsl(184, 14%, 56%);
