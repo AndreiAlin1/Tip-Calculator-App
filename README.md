@@ -23,7 +23,7 @@ This project is fully functional, but suggestions for improvements are always we
 
 Here’s how the **Tip Calculator App** looks in action:
 
-![App Screenshot](![image](https://github.com/user-attachments/assets/30b33a6c-d94c-42cc-9489-b5f175fd5a83))
+![App Screenshot](![image](https://github.com/user-attachments/assets/30b33a6c-d94c-42cc-9489-b5f175fd5a83)
 
 *Screenshot description: A clean and simple user interface where users can input the bill total, adjust the tip percentage, and specify the number of people.*
 
